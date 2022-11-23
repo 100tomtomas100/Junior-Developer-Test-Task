@@ -1,0 +1,17 @@
+#product_form{
+    height: 86vh
+}
+#product_form_main_info{
+    border: none;
+    display: grid;
+    gap: 2vh;   
+    padding: 4vh 0 0 0;
+}
+.form_input {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;   
+}
+#product_form_type_switcher{
+    padding-top: 4vh;
+}

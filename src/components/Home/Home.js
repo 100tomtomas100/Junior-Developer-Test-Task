@@ -4,7 +4,7 @@ import Header from "../Header";
 const Home = () => {
     const button1Props = {
         title: "ADD",
-        link: "/addproduct"
+        link: "/add-product"
     }
     const button2Props = {
         title: "Mass Delete"

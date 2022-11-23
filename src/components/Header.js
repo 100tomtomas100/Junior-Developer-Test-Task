@@ -4,10 +4,11 @@ import "./Header.css"
 
 const Header = (props) => {
     const NewLink = ({link, button}) => {
+        const Id = button === "Mass Delete"? "delete-product-btn": "";
         return (
             button && link? 
             <button><Link style={{textDecoration: "none", color: "black"}} to={link}>{button}</Link></button>:
-            <button>{button}</button>
+            <button id={Id}>{button}</button>
         );
     };
     return(
