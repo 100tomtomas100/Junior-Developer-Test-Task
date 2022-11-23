@@ -1,0 +1,10 @@
+#footer {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    border-top: 3px solid black;
+}
+#footer h4 {
+    font-weight: 400;
+}
