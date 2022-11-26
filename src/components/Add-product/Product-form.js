@@ -16,12 +16,12 @@ const ProductForm = () => {
         const prevChoice = document.querySelectorAll(".type_switcher_choice");
         prevChoice.forEach(choice => {
             const inputClean = choice.querySelector("input").id;
-            setInput({...input,
+            setInput(prevInput => ({...prevInput,
                 [inputClean]: ""
-            });
-            setValidInput({...validInput,
+            }));
+            setValidInput(prevValidInput => ({...prevValidInput,
                 [inputClean]:  ""              
-            }); 
+            }));
         });
         
         setSwitcherChoice(            
