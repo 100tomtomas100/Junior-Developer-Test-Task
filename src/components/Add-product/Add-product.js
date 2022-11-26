@@ -2,9 +2,11 @@ import "./Add-product.css";
 import Header from "../Header";
 import ProductForm from "./Product-form";
 
-const Addproduct = () => {
+const AddProduct = () => {
     const button1Props = {
-        title: "Save"
+        title: "Save",
+        type: "submit",
+        form: "product_form"
     }
     const button2Props = {
         title: "Cancel",
@@ -19,4 +21,4 @@ const Addproduct = () => {
     )
 }
 
-export default Addproduct;
+export default AddProduct;

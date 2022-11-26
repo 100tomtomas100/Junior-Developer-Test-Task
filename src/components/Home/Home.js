@@ -7,7 +7,8 @@ const Home = () => {
         link: "/add-product"
     }
     const button2Props = {
-        title: "Mass Delete"
+        title: "Mass Delete",
+        id: "delete-product-btn"
     }
 
     return (
