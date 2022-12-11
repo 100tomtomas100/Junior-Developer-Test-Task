@@ -1,3 +1,4 @@
 #home {
-    height: 86vh;
+    min-height: 86vh;
+    max-height: 100%;
 }

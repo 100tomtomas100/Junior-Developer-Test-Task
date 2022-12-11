@@ -3,11 +3,12 @@ import { Link } from 'react-router-dom';
 import "./Header.css"
 
 const Header = (props) => {
-    const NewLink = ({link, button}) => {        
+    const NewLink = ({link, button}) => {    
         const attributes = { 
             type: button.type? button.type: "",
             form: button.form? button.form: "",
-            id: button.id? button.id: ""
+            id: button.id? button.id: "",
+            onClick: button.click? button.click: null
         };
         const buttonStyle = {
             textDecoration: "none",
@@ -27,7 +28,7 @@ const Header = (props) => {
                 <NewLink button={props.button2} link={props.button2.link}/>
             </div>            
         </div>
-    )
-}
+    );
+};
 
 export default Header;
